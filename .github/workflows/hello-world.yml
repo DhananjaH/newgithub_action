@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout reprosetry code
-        uses: action/checkout@4
+      - name: checkout repositary code
+        uses: actions/checkout@4
       - run: echo "$(cat hello-world.txt)"
